@@ -1,0 +1,111 @@
+
+.headdiv > #mylogo {
+    padding-bottom: 7px;
+    width: 150px;
+}
+
+.headdiv {
+    box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: white;
+    height: 90px;
+    padding: 8px;
+}
+
+.headdiv > a {
+    margin: 32px;
+    position: relative;
+    top: -30px;
+    font-size: 20px;
+    font-family: serif;
+
+    color: #454545;
+    text-decoration: none;
+}
+
+.headdiv > .right{
+    position: relative;
+    left: 2%;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+.headdiv > .left {
+    margin-right: 11px;
+    margin-left: 11px;
+    position: relative;
+    left: 30%;
+}
+
+.headdiv > #acclogo {
+    height: 18px;
+    position: absolute;
+    top: 48px;
+    left: 93%;
+}
+
+.container {
+    height: 700px;
+}
+
+.text, .image, .conatiner {
+    background-color: #fcfbfa;
+}
+.container > .text {
+    width: 50%;
+    float: right;
+}
+
+.conatiner > .image {
+    width : 50%;
+    float: left;
+}
+
+.image > #myimg {
+    padding: 125px 70px;
+    width: 600px;
+}
+
+#myimg2 {
+    position: absolute;
+    top: 280px;
+    left: 56%;
+}
+#text1{
+    position: absolute;
+    top: 350px;
+    left: 56%;
+    font-size: 20px;
+}
+.text > h1 {
+    position: absolute;
+    top: 360px;
+    left: 56%;
+    font-size: 50px;
+    background-color: #8bc34a;
+}
+#text2{
+    position: absolute;
+    top: 550px;
+    left: 56%;
+    font-size: 20px;
+    color: #353535;
+}
+
+.text > #mybut{
+    position: absolute;
+    top: 640px;
+    left: 56%;
+    width: 180px;
+    height: 53px;
+    border-radius: 10px;
+    background-color: #6a9739;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+#mybut > #mycart {
+    height: 20px;
+    width: 20px;
+
+}

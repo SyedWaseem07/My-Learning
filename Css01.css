@@ -1,0 +1,75 @@
+/* 1) Universal selector 
+* {
+    background-color: black;
+    color: aqua;
+} */
+
+/* 2) Type Selector 
+h1 {
+    background-color: rgb(235, 23, 235);
+    color: blue;
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.068);
+    color: crimson;
+} */
+
+/* 3) id Selector 
+#par1, #par4 {
+    background-color: green;
+    color: black;
+} */
+
+/* 4) class Selector 
+.cust {
+    background-color: rgba(0, 0, 0, 0.452);
+    color: yellow;
+} */
+
+/* 5) Child Selector 
+span > p {
+    background-color: blue;
+    color: white;
+} 
+
+span ke jitne bhi child hai p wale 
+*/
+
+/* 6) Descendent Selector :- for all tags within specified tag
+li li {
+    color: cornflowerblue;
+} 
+
+li ke ander jitne bhi li hai sabko apply hoga irrespective of child, grand child, etc
+*/
+
+/* 7)Adjacent sibling Selector 
+span + p {
+    color: blueviolet;
+} 
+
+span ke jitne bhi adjacent siblings hai p wale
+*/
+
+/* 8) General sibling selector 
+h1 ~ span {
+    background-color: aquamarine;
+    color: crimson;
+}
+
+h1 ke jitne bhi siblings hai span wale 
+*/
+
+ul {
+    /* list-style-type: square;
+    list-style-position: inside;
+    list-style-image: url(); */
+
+    list-style: square outside;
+
+}
+
+
+
+

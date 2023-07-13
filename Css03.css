@@ -1,0 +1,55 @@
+.big {
+    border:5px black solid;
+    width: 200px;
+    background-color: red;
+    margin: 20px;
+}
+
+.small {
+    border: 3px white dashed;
+    padding: 10px;
+    margin: 10px;
+    height: 200px;
+    overflow: auto;
+    background-color:rgba(0, 0, 0, 0.356);
+}
+
+
+body {
+    background-color: white;
+}
+
+
+.cust1 {
+    border: black solid 1px;
+    text-align: centre;
+    background-color: rgb(158, 158, 9);
+    text-align: center;
+    width: 650px;
+}
+
+.cust2 {
+
+    border: black solid 1px;
+    background-color: rgba(0, 0, 0, 0.287);
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+    width: 600px;
+}
+.cust3 {
+    border: black solid 1px;
+    background-color: rgba(137, 43, 226, 0.384);
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+    width: 550px;
+}
+.cust4 {
+    border: black solid 1px;
+    padding: 5px;
+    margin: 40px;
+    text-align: center;
+    width: 450px;
+    background-color: white;
+}
