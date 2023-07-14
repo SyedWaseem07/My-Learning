@@ -1,0 +1,40 @@
+<!-- To make a website responsive we have 
+        1) media queries (least)
+        2) responsive units (try this to make website responsive)
+        3) flexbox / grid   (this is jaan of CSS)
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Responsive Website</title>
+    <style>
+        body {
+            background-color: salmon;
+        }
+        div {
+            height: 10vw;   /* responsive units */
+            width: 10vw;
+            background-color: black;
+        }
+
+        @media all and (max-width : 600px) {    /* Media Query */
+            body {
+                background-color: aqua;
+            }
+
+            div {
+                background-color: white;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div>1</div><br>
+    <div>2</div><br>
+    <div>3</div><br>
+    <div>4</div><br>
+</body>
+</html>
