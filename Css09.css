@@ -1,0 +1,32 @@
+p::first-letter {
+    background-color : aqua;
+    color : white;
+}
+
+#secp::first-line {
+    color : red;
+}
+
+p::before {
+    content : "I was inserted using before";
+    background-color: salmon;
+    display: block;
+}
+
+p::after {
+    content : "I was inserted using after";
+    background-color : grey;
+    color : white;
+    display : block;
+}
+
+input::placeholder {
+    color: salmon;
+    font-size : 20px;
+}
+input::-webKit-file-upload-button {
+    border-radius : 50px;
+    background-color : grey;
+}
+
+/* pseudo classes are hover active first-child nthchild first-of-type */
