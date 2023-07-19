@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Gilroy";
+}
+html, body {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* 
+#box {
+	height: 300px;
+	width: 300px;
+	background-color: lightseagreen;
+	position: absolute;
+	animation-name: borderlight;
+	animation-duration: 2s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}  
+
+@keyframes myanimation {
+	from {
+		left: 0;	
+		background-color: lightseagreen;
+		top: 0;
+	}
+	to {
+		left: 70%;
+		background-color: salmon;
+		top: 50%;
+	}
+}
+
+@keyframes borderlight {
+	0%{
+		left: 0;
+		top: 0;
+		background-color: lightseagreen;
+		rotate: 0deg;
+	}
+	50% {
+		left: 75%;
+		background-color: lightgreen;
+		top: 0;
+		rotate: 360deg;
+	}
+	100% {
+		left: 75%;
+		background-color: salmon;
+		top: 50%;
+		rotate: 360deg;
+	}
+} */
+
+h1{
+	font-size: 100px;
+	font-family: gilroy;
+	position: relative;
+}
+h1::after{
+	content: "";
+	position: absolute;
+	width: 0%;
+	height: 10px;
+	bottom: 0;
+	background-color: black;
+	left: 0;
+}
+h1:hover::after{
+	animation-name: lining;
+	animation-duration: 2s;
+}
+/* h1::before{
+	content: ">3";
+} */
+
+@keyframes lining{
+	0%{
+		width: 0;
+		left: 0;
+	}
+	50%{
+		width: 100%;
+		left: 0;
+	}
+	100%{
+		width: 0%;
+		left: 100%;
+	}
+}
